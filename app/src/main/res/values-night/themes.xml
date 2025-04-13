@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Neerja_Modi_School" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#82D3C9</item>
+    </style>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeesActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sch" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#80000000" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Fee_Structure"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue_gradient_wallpaper__1_"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/feetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#5D71DC"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Fee Payment Instructions"
+                android:textColor="#FBFBFB"
+                android:textSize="25dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/feerules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1. Enter the student name and date of birth as per school record."
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/rule2"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2. You will get student’s registration code, make a note of it as it will be required in payment gateway."
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:text="3. If you get stuck at any step, call on 141-2785484 / 85 / 87"
+                android:textSize="20dp">
+            </TextView>
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:srcCompat="@drawable/fee_structure_22_23_website" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

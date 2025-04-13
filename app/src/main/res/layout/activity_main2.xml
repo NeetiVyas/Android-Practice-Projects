@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/aboutus1" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="50dp"
+                android:background="#80000000" />
+            <TextView
+                android:id="@+id/about_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="ABOUT-US"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fdb6b9bedb796730a8c20aec44285176">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5EA4C5"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Our Vision"
+                android:textColor="#0D47A1"
+                android:textSize="30dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/visiontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColorHighlight="@color/black"
+                android:text="Cultivate the leaders of tomorrow, today; to enrich each student’s academic and personal development whilst upholding values of integrity; to deepen each student's understanding of the complexities of the world; to nurture each student to reach his or her fullest potential."
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/mission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#5EA4C5"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Our Mission"
+                android:textColor="#0D47A1"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textphilo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:textColorHighlight="@color/black"
+                android:text="We are dedicated to holistic excellence and to the development of self-confident individuals of good character who are prepared to embrace diversity, change and lifelong learning.
+The school aims to create a learning environment that is challenging, diverse, and supportive, where talented, dedicated faculty and students are encouraged to interact in an atmosphere of mutual respect and trust. At NMS many paths exist in partnership and students are guided to find paths that are most effective for them.
+The school is committed to building a dynamic learning community that nurtures independent learning, innovation and creativity."
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/philosophy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5EA4C5"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Our Philosophy"
+                android:textColor="#3F51B5"
+                android:textSize="30dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="14dp"
+                android:layout_height="wrap_content"
+                android:text="We understand that every child learns differently and is gifted with a unique ability that needs to be carefully honed through an inspiring learning environment. We celebrate the diversity and individuality of our students.
+With a clear recognition of the needs and the capabilities of students of differing ages and experiences, the school implements its philosophy:
+by  gradually guiding a student from dependent to independent learning ,
+by stressing high academic standards through a strong commitment to the process of learning;
+by creating an environment for learning which is stimulating, innovative, tolerant, enjoyable and which encourages intellectual inquiry and curiosity;
+by stressing the fundamental value of integrity and trust ."
+                android:textColorHighlight="@color/black"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
